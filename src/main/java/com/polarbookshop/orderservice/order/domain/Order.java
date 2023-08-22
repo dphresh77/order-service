@@ -21,7 +21,7 @@ public record Order(
     OrderStatus status,
 
     @CreatedDate
-    Instant createDate,
+    Instant createdDate,
 
     @LastModifiedDate
     Instant lastModifiedDate,
